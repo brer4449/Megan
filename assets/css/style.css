@@ -6,6 +6,22 @@ a:hover {
   color: white;
 }
 
+h1.heading {
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
 footer {
   text-align: center;
 }
