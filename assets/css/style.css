@@ -22,6 +22,15 @@ td {
   padding: 10px;
 }
 
+/* .embeded-vid {
+  align-items: center;
+} */
+
+iframe {
+  height: 394px;
+  width: 700px;
+}
+
 footer {
   text-align: center;
 }
