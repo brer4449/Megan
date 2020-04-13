@@ -6,6 +6,14 @@ a:hover {
   color: white;
 }
 
+a.title {
+  color: white;
+}
+
+a.title:hover {
+  color: #0000ee;
+}
+
 h1.heading {
   font-size: x-large;
   color: white;
