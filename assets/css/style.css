@@ -2,6 +2,13 @@ body {
   background-color: #363636;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+  height: 394px;
+  width: 700px;
+}
+
 a:hover {
   color: white;
 }
@@ -30,17 +37,13 @@ td {
   padding: 10px;
 }
 
-iframe {
-  height: 394px;
-  width: 700px;
-}
-
 .white-text {
   font-size: medium;
   color: white;
 }
 
 footer {
+  margin-top: 15px;
   font-size: xx-large;
   text-align: center;
 }
