@@ -66,7 +66,84 @@
         </div>
       </nav>
     </div>
-    <div class="container"></div>
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <form action="https://formspree.io/xyyjvbzz" method="POST">
+            <div class="field">
+              <label class="label" for="name">Name</label>
+              <div class="control has-icons-left has-icons-right">
+                <input
+                  name="name"
+                  class="input"
+                  type="text"
+                  placeholder="First & Last Name"
+                  required
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="_replyto">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input
+                  name="_replyto"
+                  class="input"
+                  type="email"
+                  placeholder="Your email here"
+                  required
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="subject">Subject</label>
+              <div class="control">
+                <input
+                  name="subject"
+                  class="input"
+                  type="text"
+                  placeholder="How can I help you?"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="message">Message</label>
+              <div class="control">
+                <textarea
+                  name="message"
+                  class="textarea"
+                  placeholder="Please elaborate on what you want to discuss..."
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- hidden input tag to redirect to my very own personalized thank you page, cuz fuck theirs-->
+            <!-- <input
+              type="hidden"
+              name="_next"
+              value="https://berickson.net/thankyou.html"
+            /> -->
+
+            <div class="field">
+              <div class="control">
+                <button type="submit" value="Send" class="button is-link">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <footer>
       <p class="white-text">© 2020 Megan Cavanagh</p>
       <a href="https://www.facebook.com/megan.cavanagh8" target="_blank"
