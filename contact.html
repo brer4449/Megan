@@ -68,7 +68,7 @@
         <div class="box">
           <form action="https://formspree.io/xyyjvbzz" method="POST">
             <div class="field">
-              <label class="label" for="name">Name</label>
+              <label class="label" for="name">Name *</label>
               <div class="control has-icons-left has-icons-right">
                 <input
                   name="name"
@@ -84,13 +84,13 @@
             </div>
 
             <div class="field">
-              <label class="label" for="_replyto">Email</label>
+              <label class="label" for="_replyto">Email *</label>
               <div class="control has-icons-left has-icons-right">
                 <input
                   name="_replyto"
                   class="input"
                   type="email"
-                  placeholder="Your email here"
+                  placeholder="example@gmail.com"
                   required
                 />
                 <span class="icon is-small is-left">
@@ -100,24 +100,25 @@
             </div>
 
             <div class="field">
-              <label class="label" for="subject">Subject</label>
+              <label class="label" for="subject">Subject *</label>
               <div class="control">
                 <input
                   name="subject"
                   class="input"
                   type="text"
-                  placeholder="How can I help you?"
+                  placeholder="What would you like to discuss?"
+                  required
                 />
               </div>
             </div>
 
             <div class="field">
-              <label class="label" for="message">Message</label>
+              <label class="label" for="message">Message *</label>
               <div class="control">
                 <textarea
                   name="message"
                   class="textarea"
-                  placeholder="Please elaborate on what you want to discuss..."
+                  placeholder="Please elaborate further..."
                   required
                 ></textarea>
               </div>
