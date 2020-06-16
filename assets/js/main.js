@@ -1,7 +1,8 @@
-const panels = document.querySelector(".panel");
+const panels = $(".panel");
 
-function addOpen() {
-  panels.classList.add("open");
-}
+onLoad = () => {
+  panels.addClass("open");
+  panels.animate({ opacity: 1 }, 1000);
+};
 
-window.addEventListener("DOMContentLoaded", addOpen);
+window.addEventListener("DOMContentLoaded", onLoad);
