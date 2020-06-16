@@ -20,7 +20,8 @@
     <title>Contact</title>
   </head>
   <body>
-    <section class="hero is-light">
+    <div class="content">
+      <!-- <section class="hero is-light">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -29,136 +30,140 @@
           <h2 class="subtitle">Film, Television, and Voiceover Actress</h2>
         </div>
       </div>
-    </section>
-    <div class="block">
-      <nav class="navbar is-light">
-        <div class="navbar-brand">
-          <a
-            role="button"
-            class="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div class="navbar-menu">
-          <div class="navbar-start">
-            <a href="theatricalreel.html" class="navbar-item">
-              <i class="fas fa-film"></i> Theatrical Reel
-            </a>
-            <a href="animationreel.html" class="navbar-item">
-              <i class="fas fa-microphone"></i> Animation Reel
-            </a>
-            <a href="film.html" class="navbar-item">
-              <i class="fas fa-film"></i> Film
-            </a>
-            <a href="tv.html" class="navbar-item">
-              <i class="fas fa-tv"></i> Television
+    </section> -->
+      <div class="block">
+        <nav class="navbar is-light">
+          <div class="navbar-brand">
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
             </a>
           </div>
-        </div>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="card">
-        <div class="box">
-          <form action="https://formspree.io/xyyjvbzz" method="POST">
-            <div class="field">
-              <label class="label" for="name">Name *</label>
-              <div class="control has-icons-left has-icons-right">
-                <input
-                  name="name"
-                  class="input"
-                  type="text"
-                  placeholder="First & Last Name"
-                  required
-                />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
-                </span>
-              </div>
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <a href="theatricalreel.html" class="navbar-item">
+                <i class="fas fa-film"></i> Theatrical Reel
+              </a>
+              <a href="animationreel.html" class="navbar-item">
+                <i class="fas fa-microphone"></i> Animation Reel
+              </a>
+              <a href="film.html" class="navbar-item">
+                <i class="fas fa-film"></i> Film
+              </a>
+              <a href="tv.html" class="navbar-item">
+                <i class="fas fa-tv"></i> Television
+              </a>
+              <a href="contact.html" class="navbar-item">
+                <i class="fas fa-phone"></i> Contact
+              </a>
             </div>
-
-            <div class="field">
-              <label class="label" for="_replyto">Email *</label>
-              <div class="control has-icons-left has-icons-right">
-                <input
-                  name="_replyto"
-                  class="input"
-                  type="email"
-                  placeholder="example@gmail.com"
-                  required
-                />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
-                </span>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="box">
+            <form action="https://formspree.io/xyyjvbzz" method="POST">
+              <div class="field">
+                <label class="label" for="name">Name *</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input
+                    name="name"
+                    class="input"
+                    type="text"
+                    placeholder="First & Last Name"
+                    required
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
               </div>
-            </div>
 
-            <div class="field">
-              <label class="label" for="subject">Subject *</label>
-              <div class="control">
-                <input
-                  name="subject"
-                  class="input"
-                  type="text"
-                  placeholder="What would you like to discuss?"
-                  required
-                />
+              <div class="field">
+                <label class="label" for="_replyto">Email *</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input
+                    name="_replyto"
+                    class="input"
+                    type="email"
+                    placeholder="example@gmail.com"
+                    required
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
               </div>
-            </div>
 
-            <div class="field">
-              <label class="label" for="message">Message *</label>
-              <div class="control">
-                <textarea
-                  name="message"
-                  class="textarea"
-                  placeholder="Please elaborate further..."
-                  required
-                ></textarea>
+              <div class="field">
+                <label class="label" for="subject">Subject *</label>
+                <div class="control">
+                  <input
+                    name="subject"
+                    class="input"
+                    type="text"
+                    placeholder="What would you like to discuss?"
+                    required
+                  />
+                </div>
               </div>
-            </div>
 
-            <!-- hidden input tag to redirect to my very own personalized thank you page, cuz fuck theirs-->
-            <!-- <input
+              <div class="field">
+                <label class="label" for="message">Message *</label>
+                <div class="control">
+                  <textarea
+                    name="message"
+                    class="textarea"
+                    placeholder="Please elaborate further..."
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <!-- hidden input tag to redirect to my very own personalized thank you page, cuz fuck theirs-->
+              <!-- <input
               type="hidden"
               name="_next"
               value="https://berickson.net/thankyou.html"
             /> -->
 
-            <div class="field">
-              <div class="control">
-                <button type="submit" value="Send" class="button is-link">
-                  Submit
-                </button>
+              <div class="field">
+                <div class="control">
+                  <button type="submit" value="Send" class="button is-link">
+                    Submit
+                  </button>
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
+      <footer>
+        <p class="footer-text">© 2020 Megan Cavanagh</p>
+        <a href="https://www.facebook.com/megan.cavanagh8" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        |
+        <a href="https://www.instagram.com/realmegancavanagh/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        |
+        <a href="https://twitter.com/megancavanagh8?lang=en" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        |
+        <a href="https://www.imdb.com/name/nm0146903/" target="_blank"
+          ><i class="fab fa-imdb"></i
+        ></a>
+      </footer>
     </div>
-    <footer>
-      <p class="footer-text">© 2020 Megan Cavanagh</p>
-      <a href="https://www.facebook.com/megan.cavanagh8" target="_blank"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-      |
-      <a href="https://www.instagram.com/realmegancavanagh/" target="_blank"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      |
-      <a href="https://twitter.com/megancavanagh8?lang=en" target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      |
-      <a href="https://www.imdb.com/name/nm0146903/" target="_blank"
-        ><i class="fab fa-imdb"></i
-      ></a>
-    </footer>
   </body>
 </html>

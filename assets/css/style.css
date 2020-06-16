@@ -2,6 +2,11 @@ body {
   background-color: #efefef;
 }
 
+.content {
+  min-height: 100vh;
+  margin-bottom: 0rem !important;
+}
+
 .panels {
   min-height: 80vh;
   overflow: hidden;
