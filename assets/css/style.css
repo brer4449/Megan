@@ -7,6 +7,17 @@ body {
   margin-bottom: 0rem !important;
 }
 
+figure.image {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
 .container {
   margin: 5% 15%;
 }
