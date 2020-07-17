@@ -1,8 +1,8 @@
-const panels = $(".panel");
+const panel = $(".panel");
 
 onLoad = () => {
-  panels.addClass("open");
-  panels.animate({ opacity: 1 }, 1000);
+  panel.addClass("open");
+  panel.animate({ opacity: 1 }, 1000);
 };
 
 window.addEventListener("DOMContentLoaded", onLoad);
