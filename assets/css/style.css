@@ -94,11 +94,23 @@ figcaption {
   margin-right: 5px;
 }
 
+.embeded-vid {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+}
+
 iframe {
   display: block;
+  position: absolute;
   margin: 0 auto;
-  height: 394px;
-  width: 700px;
+  height: 100%;
+  width: 90%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 h1.heading {
