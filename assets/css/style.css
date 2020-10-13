@@ -31,7 +31,7 @@ figcaption {
 }
 
 .panels {
-  min-height: 80vh;
+  min-height: 50vh;
   overflow: hidden;
   display: flex;
 }
@@ -64,6 +64,8 @@ figcaption {
 .bio-image {
   background-image: url(https://vignette.wikia.nocookie.net/themightyb/images/4/4b/Megan-cavanagh_5225982-500x625.jpg/revision/latest/scale-to-width-down/340?cb=20171001182713);
   width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 /* Flex Children (Flex Items) */
@@ -81,7 +83,7 @@ figcaption {
   transform: translateX(-100%);
 }
 .panel.open > *:first-child {
-  transform: translateX(35%);
+  transform: translateX(45%);
 }
 /* getting rid of/ adding transform: translateY will animate itself on/off screen*/
 .panel > *:last-child {
